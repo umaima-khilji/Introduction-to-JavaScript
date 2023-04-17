@@ -41,7 +41,7 @@ else if(method == 3){
 
 // invalid input
 else{
-    alert("Invalid Input Try again!")
+    alert("Your Input is Invalid please Try again!")
 }
 
 ///////////////////
@@ -78,7 +78,7 @@ else if(secretNumber == (guess-2) ){
 }
 // To display an error message for invalid input
 else{
-    alert(" please between 1 to 10 number.")
+    alert(" please select between 1 to 10 number.")
 }
 
 /////////////////
