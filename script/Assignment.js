@@ -67,15 +67,11 @@ if(secretNumber == guess){
 else if(secretNumber < guess ){
     alert("Sorry, your guess is too high. Please guess again..")
 }
-else if(secretNumber == (guess+2) ){
-    alert("Sorry, your guess is too high. Please guess again.")
-}
+
 else if(secretNumber > guess ){
     alert("Sorry, your guess is too low. Please guess again.")
 }
-else if(secretNumber == (guess-2) ){
-    alert("Sorry, your guess is too low. Please guess again.")
-}
+
 // To display an error message for invalid input
 else{
     alert(" please select between 1 to 10 number.")
